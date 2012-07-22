@@ -1,0 +1,7 @@
+# modman module description
+# see https://github.com/colinmollenhour/modman/ for more info
+# author: ashley@magespeedtest.com
+
+# MageSpeedTest.com Magento extension
+*	app/code/community/Magespeedtest/Speedtest
+modules/Magespeedtest_Speedtest.xml	app/etc/modules/Magespeedtest_Speedtest.xml

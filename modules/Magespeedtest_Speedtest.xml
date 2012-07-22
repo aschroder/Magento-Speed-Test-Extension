@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magespeedtest_Speedtest>
+           <active>true</active>
+           <codePool>community</codePool>
+       </Magespeedtest_Speedtest>
+    </modules>
+</config>
