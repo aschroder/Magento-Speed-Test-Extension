@@ -2,7 +2,7 @@ Magento Speed Test Extension
 =============================
 
 * Author:    MageSpeedTest.com - Ashley Schroder (<ashley@magespeedtest.com>)
-* Version:   0.0.1
+* Version:   0.0.2
 * Website:   <http://www.magespeedtest.com>
 * GitHub:    <https://github.com/aschroder/Magento-Speed-Test-Extension>
 
