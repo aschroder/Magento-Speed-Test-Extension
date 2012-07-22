@@ -10,7 +10,7 @@ MageSpeedTest.com is a free service to simulate multiple customers on your webst
 
 Monitoring Your Store
 ----------------------
-You can configure perioidc speed monitoring and receive an alert if your speed test results have changed dramatically - which can be an early indicator of problems.
+You can configure periodic speed monitoring and receive an alert if your speed test results have changed dramatically - which can be an early indicator of problems.
 
 Premium Testing
 ---------------
