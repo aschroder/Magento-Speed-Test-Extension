@@ -10,7 +10,7 @@
 -->
     <modules>
         <Magespeedtest_Speedtest>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </Magespeedtest_Speedtest>
     </modules>
     <global>
@@ -24,7 +24,39 @@
                 <class>Magespeedtest_Speedtest_Helper</class>
             </magespeedtest>
         </helpers>
+        <blocks>
+			<magespeedtest>
+				<class>Magespeedtest_Speedtest_Block</class>
+			</magespeedtest>
+		</blocks>
 	</global>
+	  <admin>
+	       <routers>
+	           <magespeedtest>	
+				<use>admin</use>
+	               <args>
+	                   <module>Magespeedtest_Speedtest</module>
+	                   <frontName>magespeedtest</frontName>
+	               </args>
+	           </magespeedtest>
+	       </routers>
+    </admin>
+	<adminhtml>
+	 <menu>
+         <system>
+             <children>
+                 <tools>
+                     <children>
+                         <magespeedtest translate="title" module="magespeedtest">
+                             <title>Performance</title>
+                             <action>magespeedtest/performance</action>
+                         </magespeedtest>
+                     </children>
+                 </tools>
+             </children>
+         </system>
+      </menu>
+	</adminhtml>
 	<default>
 		<magespeedtest>
 			<settings>
